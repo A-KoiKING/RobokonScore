@@ -31,6 +31,7 @@ public class Timer : MonoBehaviour
             enable = false;
             count = false;
             audioSource.Stop();
+            TimerText.color = Color.white;
         }
 
         if (Input.GetKeyDown(KeyCode.Return))
